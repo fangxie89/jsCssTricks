@@ -15,7 +15,7 @@
     <div class="container">
         <div class="catalog">
             <li v-for="item in catalog" :key="item.index" :class="activeIndex === item.index ? 'active' : ''">
-                <button @click="() => handleClick(item.index)">{{ item.name }}</button>
+                <button @click="() => handleClick(item.index)" :disabled="item.failed">{{ item.name }}</button>
             </li>
         </div>
         <div class="content">

@@ -26,3 +26,14 @@ npm run dev
 8. calculate character frequency
 9. backdrop-filter
 10. repeated gradient border
+11. box shadow image
+12. olympic rings
+13. Continuous text shadow effect
+14. permission combination and determination
+15. hasChange
+16. 3x3 Grid
+17. font rain
+18. circular zoom effect
+19. version comparer with generator
+20. card rotation effect
+
